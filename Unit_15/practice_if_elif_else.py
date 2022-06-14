@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 x = int(input())
 
 if 11 <= x <= 20:
