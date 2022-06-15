@@ -1,4 +1,5 @@
-with open('words.txt', 'r') as file:
+path = './27.5/'
+with open(path + 'words.txt', 'r') as file:
     count = 0
     words = file.readlines()
     for word in words:

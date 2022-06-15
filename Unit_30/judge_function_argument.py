@@ -1,10 +1,10 @@
 korean, english, mathematics, science = map(int, input().split())
 
-#
-#
+def get_min_max_score(*args):
+      return min(args), max(args)
 
-#
-#
+def get_average(**kwargs):
+      return sum(kwargs.values())/len(kwargs)
 
 min_score, max_score = get_min_max_score(korean, english, mathematics, science)
 average_score = get_average(korean=korean, english=english,
