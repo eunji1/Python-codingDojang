@@ -6,9 +6,10 @@ class Wing:
     def flap(self):
         print('파닥거리다')
 
-#
-#
-#
+class Bird(Wing, Animal):
+    def fly(self):
+        print('날다')
+
 
 b = Bird()
 b.eat()

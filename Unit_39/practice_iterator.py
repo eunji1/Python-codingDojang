@@ -12,7 +12,7 @@ class MultipleIterator:
         if self.current * self.multiple < self.stop:
             return self.current * self.multiple
         else:
-            raise StopIteration
+            raise StopIteration # 거짓이면 예외 발생
 
 for i in MultipleIterator(20, 3):
     print(i, end=' ')
